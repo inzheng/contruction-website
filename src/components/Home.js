@@ -24,7 +24,7 @@ const Home = () => {
           <a href="#about" className="btn btn-primary">Learn More About Us</a>
         </div>
         <div className="welcome-image">
-          <img src="https://placehold.co/600x400" alt="Construction site with workers" />
+          <img src="https://imgur.com/b2zzHtR.jpg" alt="C&A Corp Logo" />
         </div>
       </div>
     </div>

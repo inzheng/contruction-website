@@ -12,6 +12,7 @@ const Footer = ({ onNavClick }) => {
           <p>Quality construction services for residential and commercial projects. Building excellence since 2010.</p>
         </div>
         
+
         <div className="footer-col">
           <h3>Quick Links</h3>
           <ul className="footer-links">

@@ -55,6 +55,11 @@ const Navbar = ({ activeSection, onNavClick }) => {
                 Services
               </a>
             </li>
+            <li className={activeSection === 'gallery' ? 'active' : ''}>
+              <a href="#gallery" onClick={(e) => { e.preventDefault(); handleNavClick('gallery'); }}>
+                Gallery
+              </a>
+            </li>
             <li className={activeSection === 'about' ? 'active' : ''}>
               <a href="#about" onClick={(e) => { e.preventDefault(); handleNavClick('about'); }}>
                 About
@@ -73,3 +78,5 @@ const Navbar = ({ activeSection, onNavClick }) => {
 };
 
 export default Navbar;
+
+

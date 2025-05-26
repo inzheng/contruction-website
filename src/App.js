@@ -3,6 +3,7 @@ import './App.css';
 import Navbar from './components/Navbar';
 import Home from './components/Home';
 import Services from './components/Services';
+import Gallery from './components/Gallery';
 import About from './components/About';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
@@ -67,6 +68,10 @@ function App() {
         
         <section id="services">
           <Services />
+        </section>
+        
+        <section id="gallery">
+          <Gallery />
         </section>
         
         <section id="about">

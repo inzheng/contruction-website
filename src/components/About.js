@@ -31,7 +31,7 @@ const About = () => {
           </div>
           
           <div className="about-image">
-            <img src="https://placehold.co/600x400" alt="ABC Construction team" />
+            <img src="https://imgur.com/34dBPt3.jpg" alt="ABC Construction team" />
           </div>
         </div>
         
