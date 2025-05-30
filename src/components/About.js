@@ -3,7 +3,7 @@ import './About.css';
 
 const About = () => {
   const stats = [
-    { value: '22+', label: 'Years of Experience' },
+    { value: '24+', label: 'Years of Experience' },
     { value: '200+', label: 'Projects Completed' },
     { value: '50+', label: 'Team Members' },
     { value: '95%', label: 'Client Satisfaction' }
@@ -17,21 +17,21 @@ const About = () => {
         <div className="about-content">
           <div className="about-text">
             <p>
-              Founded in 2010, ABC Construction has grown from a small family business into one of the most trusted construction companies in the area. Our commitment to quality, integrity, and client satisfaction has been the cornerstone of our success.
+              With over 24 years of personal experience in construction and more than 8 years running this business, we bring a wealth of knowledge, craftsmanship, and dedication to every project. Our foundation is built on trust, hard work, and client satisfaction.
             </p>
             <p>
-              We believe that every construction project, regardless of size, deserves the highest level of attention and craftsmanship. Our team of experienced professionals brings expertise across all construction disciplines, ensuring that your project is completed to the highest standards.
+              We proudly serve a wide range of clients—many of whom have rated us five stars for our commitment to quality and service. From renovations to full-scale builds, we believe every detail matters and every customer deserves our best.
             </p>
             <p>
-              At ABC Construction, we combine traditional building techniques with innovative technologies to deliver exceptional results. We're committed to sustainable building practices and use environmentally friendly materials whenever possible.
+              Our team combines hands-on expertise with practical solutions to deliver consistent, high-standard results. We understand the importance of reliability and treat every job, big or small, with the same level of focus and care.
             </p>
             <p>
-              Our mission is simple: to transform your vision into reality while providing a seamless, stress-free experience from concept to completion.
+              We operate Monday through Saturday and are available on Sundays only in case of emergency. Our goal is to make your project smooth, professional, and stress-free from start to finish.
             </p>
           </div>
           
           <div className="about-image">
-            <img src="https://imgur.com/34dBPt3.jpg" alt="ABC Construction team" />
+            <img src="https://imgur.com/34dBPt3.jpg" alt="CHRISTOPHER AND ALEXIS team" />
           </div>
         </div>
         

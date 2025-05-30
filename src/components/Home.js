@@ -19,9 +19,15 @@ const Home = () => {
       <div className="container welcome-section">
         <div className="welcome-content">
           <h2>Welcome to CHRISTOPHER AND ALEXIS</h2>
-          <p>For over 22 years, CHRISTOPHER AND ALEXIS has been delivering exceptional building services throughout the New York area. We combine cutting-edge techniques with traditional craftsmanship to create structures that stand the test of time.</p>
-          <p>From residential renovations to commercial developments, our team of experienced professionals is dedicated to exceeding your expectations with precision, quality, and reliability.</p>
-          <a href="#about" className="btn btn-primary">Learn More About Us</a>
+        <p>
+          Welcome! We're a dedicated construction team with over 24 years of hands-on industry experience and more than 8 years in business. Whether you're planning a renovation, new build, or custom project, we're here to bring your ideas to life with skill, care, and integrity.
+        </p>
+        <p>
+          We take pride in the relationships we’ve built with our clients—many of whom return to us and recommend our work for our reliability, quality, and five-star service. No matter the size of the job, we treat every project like it’s our own.
+        </p>
+        <p>
+          Thank you for considering us. We look forward to working with you and showing you what 15+ years of experience, passion, and professionalism can achieve.
+        </p>
         </div>
         <div className="welcome-image">
           <img src="https://imgur.com/b2zzHtR.jpg" alt="C&A Corp Logo" />

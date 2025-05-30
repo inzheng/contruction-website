@@ -5,63 +5,39 @@ const Services = () => {
   const services = [
     {
       id: 1,
-      title: 'Residential & Commercial Renovations',
-      description: 'We offer a full range of professional construction and remodeling services for both residential and commercial properties.',
-      icon: '🏠🏢'
+      title: 'Residential Construction',
+      description: 'Complete home building and renovation services tailored to your vision and budget.',
+      features: ['Custom Homes', 'Renovations', 'Additions', 'Remodeling']
     },
     {
       id: 2,
-      title: 'Demolition & Framing',
-      description: 'Expert demolition services and professional framing using both wood and metal materials.',
-      icon: '🔨'
+      title: 'Commercial Construction',
+      description: 'Professional commercial building services for businesses of all sizes.',
+      features: ['Office Buildings', 'Retail Spaces', 'Warehouses', 'Restaurants']
     },
     {
       id: 3,
-      title: 'Kitchen Installations',
-      description: 'Complete kitchen renovations including cabinets, countertops, and all fixtures.',
-      icon: '🍳'
+      title: 'Kitchen & Bath',
+      description: 'Transform your kitchen and bathroom with our expert design and installation services.',
+      features: ['Kitchen Remodeling', 'Bathroom Renovation', 'Custom Cabinets', 'Fixture Installation']
     },
     {
       id: 4,
-      title: 'Plastering, Skim Coat & Painting',
-      description: 'Professional wall finishing with high-quality materials and expert application.',
-      icon: '🖌️'
+      title: 'Concrete & Masonry',
+      description: 'Durable concrete and masonry work for foundations, driveways, and structures.',
+      features: ['Foundations', 'Driveways', 'Patios', 'Retaining Walls']
     },
     {
       id: 5,
-      title: 'Flooring & Tiling',
-      description: 'Installation of ceramic, marble, granite, porcelain, and mosaic tiles for floors and walls.',
-      icon: '🧱'
+      title: 'Interior Finishing',
+      description: 'Quality interior finishing services to complete your space perfectly.',
+      features: ['Drywall', 'Painting', 'Flooring', 'Trim Work']
     },
     {
       id: 6,
-      title: 'Bathroom Renovations',
-      description: 'Complete bathroom remodeling services from fixtures to tiling and plumbing.',
-      icon: '🚿'
-    },
-    {
-      id: 7,
-      title: 'Window & Frame Installation',
-      description: 'Professional installation of windows and frames for improved aesthetics and energy efficiency.',
-      icon: '🪟'
-    },
-    {
-      id: 8,
-      title: 'Sheetrock & Partitions',
-      description: 'Expert installation of sheetrock and creation of room partitions for space optimization.',
-      icon: '🧰'
-    },
-    {
-      id: 9,
-      title: 'Concrete Sidewalks & Brickwork',
-      description: 'High-quality concrete and brickwork services for exterior improvements.',
-      icon: '🧱'
-    },
-    {
-      id: 10,
-      title: 'Roofing Solutions',
-      description: 'Complete roofing services including repairs, replacement, and new installations.',
-      icon: '🏠'
+      title: 'Project Management',
+      description: 'Professional project management ensuring your construction project stays on time and budget.',
+      features: ['Planning', 'Coordination', 'Quality Control', 'Timeline Management']
     }
   ];
 
@@ -70,25 +46,28 @@ const Services = () => {
       <div className="container">
         <h2>Our Services</h2>
         <p className="services-intro">
-          We offer a comprehensive range of construction and renovation services for both residential and commercial projects.
-          Our team of skilled professionals ensures quality workmanship on every project.
+          We offer comprehensive construction services to meet all your building needs. 
+          From concept to completion, we're here to make your vision a reality.
         </p>
         
         <div className="services-grid">
           {services.map(service => (
-            <div className="service-card" key={service.id}>
-              <div className="service-icon">{service.icon}</div>
+            <div key={service.id} className="service-card">
               <h3>{service.title}</h3>
               <p>{service.description}</p>
-              <a href="#contact" className="service-link">Request Service</a>
+              <ul className="features-list">
+                {service.features.map((feature, index) => (
+                  <li key={index}>{feature}</li>
+                ))}
+              </ul>
             </div>
           ))}
         </div>
         
-        <div className="services-cta">
-          <h3>Ready to start your construction project?</h3>
+        <div className="cta-section">
+          <h3>Ready to Start Your Project?</h3>
           <p>Contact us today for a free consultation and estimate.</p>
-          <a href="#contact" className="btn btn-primary">Get in Touch</a>
+          <a href="#contact" className="btn btn-primary">Get Free Quote</a>
         </div>
       </div>
     </div>
