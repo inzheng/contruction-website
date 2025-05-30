@@ -26,7 +26,7 @@ const Home = () => {
           We take pride in the relationships we’ve built with our clients—many of whom return to us and recommend our work for our reliability, quality, and five-star service. No matter the size of the job, we treat every project like it’s our own.
         </p>
         <p>
-          Thank you for considering us. We look forward to working with you and showing you what 15+ years of experience, passion, and professionalism can achieve.
+          Thank you for considering us. We look forward to working with you. 
         </p>
         </div>
         <div className="welcome-image">
