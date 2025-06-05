@@ -12,7 +12,6 @@ const Footer = ({ onNavClick }) => {
           <p>Quality construction services for residential and commercial projects. Building excellence since 2010.</p>
         </div>
         
-
         <div className="footer-col">
           <h3>Quick Links</h3>
           <ul className="footer-links">
@@ -55,8 +54,8 @@ const Footer = ({ onNavClick }) => {
           <ul className="contact-info">
             <li>1464 CLINTONVILLE STREET 1ST FLOOR, WHITESTONE NY 11357</li>
             <li>Phone: 917-335-2445</li>
-            <li>Email: Incomplete Info </li>
-            <li>Hours: Mon-Fri 8:00 AM - 6:00 PM</li>
+            <li>Email: christopherandalexiscorp@gmail.com</li>
+            <li>Hours: Open 7 days</li>
           </ul>
         </div>
       </div>
