@@ -3,7 +3,7 @@ import './About.css';
 
 const About = () => {
   const stats = [
-    { value: '22+', label: 'Years of Experience' },
+    { value: '24+', label: 'Years of Experience' },
     { value: '200+', label: 'Projects Completed' },
     { value: '50+', label: 'Team Members' },
     { value: '95%', label: 'Client Satisfaction' }
