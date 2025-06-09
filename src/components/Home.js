@@ -30,7 +30,7 @@ const Home = () => {
         </p>
         </div>
         <div className="welcome-image">
-          <img src="https://imgur.com/b2zzHtR.jpg" alt="C&A Corp Logo" />
+          <img src="https://imgur.com/a/VFkKL9a" alt="C&A Corp Logo" />
         </div>
       </div>
     </div>
